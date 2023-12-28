@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nageswaraopillakatupu__net_sample_test_1703754942156-push-trigger-input-set
+  identifier: Build_nageswaraopillakatupu__net_sample_test_1703754942156pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nageswaraopillakatupu__net_sample_test_1703754942156
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
